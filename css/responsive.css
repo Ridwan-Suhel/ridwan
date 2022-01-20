@@ -1,0 +1,645 @@
+@media (min-width: 1550px) {
+.content .text {
+    right: 14%;
+}
+.content .dots {
+    right: 170px;
+    width: 270px;
+}
+.hero-area .content .img-wrapper {
+    left: 290px;
+}
+.content .name {
+    left: -20px;
+}
+
+
+}
+
+@media (max-width: 1200px) {
+.content .text h1 {
+    font-size: 70px;
+}
+.content .text {
+    right: 100px;
+}
+
+}
+
+
+
+/*extra add from 1080*/
+@media (max-width: 1080px) {
+.content .name {
+    left: -105px;
+}
+.content .text {
+    right: 70px;
+}
+.hero-area .content .img-wrapper {
+    width: 700px;
+}
+.hero-area .content .img-wrapper .ridwan{
+    height: 480px;
+}
+}
+/*===================================================
+media (max-width: 992px)
+==================================================*/
+@media (max-width: 991.98px) {
+
+
+
+    /*   ---- header-mb-device-btn -----*/
+
+    .header-hero {
+        height: 100vh;
+    }
+
+
+    /*----------mobile menu start-----*/
+    .my-nav{
+    position: relative;
+    }
+    .mean-container .mean-nav {
+        background: #0080ef;
+        position: absolute;
+        left: 0px;
+        top: 12px;
+        width: 100%;
+    }
+.mobile-menu{
+    width: 100%;
+}
+.mean-container{
+    width: 100%;
+}
+    .mean-container .mean-nav ul li.active {
+        background: #1c96ff;
+    }
+
+    .mean-container a.meanmenu-reveal {
+        width: 26px;
+        top: 16px;
+        padding: 0 0;
+    }
+
+    .mean-container a.meanmenu-reveal.meanclose {
+        font-size: 21px !important;
+
+    }
+    .mean-container a.meanmenu-reveal span {
+        margin-top: 5px;
+        background: #fff;
+    }
+    .mean-container a.meanmenu-reveal span:first-child{
+        margin-top: 0;
+    }
+    .top-menu-wrapper.sticky .mean-container a.meanmenu-reveal span {
+        background: #000;
+    }
+    .mean-container a.meanmenu-reveal.meanclose {
+        color: #fff;
+    }
+    .top-menu-wrapper.sticky .mean-container a.meanmenu-reveal.meanclose {
+        color: #000;
+    }
+    .menu-header .my-nav{
+    align-items: center;
+}
+    .hero-area .content .img-wrapper {
+    width: 530px;
+    left: 130px;
+
+    }
+    .content .name {
+    top: 37%;
+    }
+    .hero-area .content .img-wrapper .ridwan{
+    height: 420px;
+    }
+    .content .text {
+    right: 65px;
+    top: 66%;
+    }
+    .content .text h1 {
+    font-size: 58px;
+    }
+    .content .text p {
+    font-size: 18px;
+    }
+    .content .get-start {
+    bottom: 120px;
+    left: 9%;
+    }
+    .content .get-start a {
+    font-size: 20px;
+    }
+    .content .get-start .arrow {
+    height: 50px;
+    top: 30px;
+    }
+    .content .get-start .arrow:before {
+    width: 20px;
+    height: 20px;
+    }
+    @keyframes downArrow{
+    0%{
+        top: 30px;
+    }
+    100%{
+         top: 50px;
+         height: 60px;
+    }
+    }
+    .content .dots {
+    bottom: 61%;
+    right: -10px;
+    }
+    /*----------mobile menu end-----*/
+    /*    ---------------about section-------------*/
+    .about-section {
+        margin: 0px;
+    }
+
+    .about-section .about-area {
+        margin-top: 70px;
+    }
+
+    /*    ---------------service section-------------*/
+    .service-section {
+        padding-top: 65px;
+    }
+
+    .service-section .service-box .icon {
+        width: 40px;
+    }
+
+    .service-section .service-box h4 {
+        margin: 15px 0px;
+        font-size: 18px;
+    }
+
+    .service-section .service-box p {
+        font-size: 16px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(100px);
+        transition: .3s;
+    }
+
+    .service-section .service-box:hover p {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+
+    /*   ------------ FAQ - section------------------*/
+    .faq-section {
+        width: 100%;
+    }
+
+    .faq-section .accordion-container {
+        width: 100%;
+    }
+
+    /*   --- contact - section--------*/
+    .contact-section .contact-area .inform-wrapper li i {
+        display: block;
+    }
+
+
+}
+/*==========================================
+media (max-width: 768px)
+=====================================*/
+@media (max-width: 767.98px) {
+    .hero-area .content .img-wrapper {
+    width: 520px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    }
+    .hero-area .content .img-wrapper .ridwan {
+    height: 340px;
+    }
+    .content .name{
+        display: none;
+    }
+
+    .content .text {
+    left: 50px;
+    top: 60%;
+    }
+    .content .get-start {
+    left: 50px;
+    }
+    .content .text h1 {
+    font-size: 55px;
+    }
+       /*    ---------------about section-------------*/
+    .about-section .about-area {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 30px 12px;
+    }
+
+    .about-content .social {
+        margin-top: 35px;
+    }
+
+    /*  ----------------service section ------------------------- */
+    .service-section .service-box {
+
+        transform: scale(0.9);
+    }
+
+    .service-section .service-box:hover {
+        transform: scale(1);
+    }
+
+    /*  ----------------portfolio section ------------------------- */
+    .portfolio-section .swiper-container{
+    width: 100%;
+    }
+
+    /*---------- pop up notify for mb device-----------*/
+
+    .text-notify {
+        background: #222121cf;
+        border: 1px solid #000;
+        border-radius: 3px;
+        display: inline-block;
+        padding: 9px 14px;
+        position: relative;
+        margin: 10px auto 32px;
+        width: 90%;
+        display: block;
+        text-align: center;
+    }
+
+    .text-notify mark {
+    background: rgba(0, 128, 239, 0.65);
+    color: #fff;
+    border: 1px solid #007bffd6;
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 7px;
+
+    }
+
+    .text-notify small {
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .text-notify .clse {
+        color: #fff;
+        font-size: 13px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        background: #262626;
+        border-radius: 50%;
+        cursor: pointer;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+    }
+
+    /*   ------------ contact - section------------------*/
+    .contact-section .contact-area h2 {
+        padding: 0px 0px;
+    }
+
+    .contact-section .contact-area .form-wrapper {
+        border-radius: 8px;
+    }
+
+    .contact-section .contact-area .inform-wrapper {
+        padding: 20px 5%;
+        border-radius: 8px;
+        border-top: 1px solid #ddd;
+    }
+
+    .contact-left {
+        border-right: 0px;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    .contact-section .contact-area form input {
+        width: 100%;
+    }
+
+    .contact-section .contact-area form .frm-btn {
+        width: 100%;
+    }
+
+    .contact-section .contact-area form textarea {
+        width: 100%;
+    }
+
+    .contact-section .contact-area .inform-wrapper li {
+        margin: 12px 0px;
+        display: block;
+    }
+
+    .scroll_top {
+        display: none;
+    }
+
+    .testimonial-section .testi-active {
+        width: 100%;
+    }
+
+    .testimonial-section .testi-box {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 640px){
+    .content .name {
+    top: 35%;
+    left: -140px;
+    transform: translateX(0px) rotate(-90deg);
+    font-size: 80px;
+    opacity: 0.1;
+    -webkit-text-stroke: 3px #000;
+    z-index: -1;
+    display: block;
+    }
+    .find-section .find-wrapper{
+        width: 255px;
+    }
+    .find-section .swiper-button-next{
+        display: none;
+    }
+    .find-section .swiper-button-prev{
+        display: none;
+    }
+}
+/*==========================================
+media (max-width: 575px)
+=====================================*/
+@media (max-width: 575.98px) {
+
+    .top-menu-wrapper .menu-header #nav-left{
+        position: absolute;
+        width: 120px;
+        z-index: 9999;
+    }
+    .top-menu-wrapper .menu-header #nav-right{
+        width: 100%;
+    }
+
+    .content .text h1 {
+    font-size: 39px;
+    }
+    .service-box {
+        width: 90%;
+    }
+
+    .accordion-container h2 {
+        padding: 10px 12px 10px 20px;
+    }
+
+    .accordion-container .article-title {
+        padding: 0.625em 1.625em 0.625em 20px;
+    }
+
+    .scroll_top {
+        display: none;
+    }
+
+    .testimonial-section .testi-box .testi-content p {
+        font-size: 18px;
+    }
+    .pop-msg{
+        right: 15px;
+    }
+
+}
+
+/*======================================
+media (max-width: 520px)
+=================================*/
+@media (max-width: 520px) {
+    .accordion-container h2 {
+        font-size: 24px;
+    }
+}
+
+/*======================================
+media (max-width: 414px)
+=================================*/
+
+@media (max-width: 425px) {
+    .top-menu-wrapper{
+        z-index: 9999;
+    }
+.content .dots {
+    display: none;
+}
+
+.content .name {
+    display: none;
+}
+ .header-hero {
+    width: 100%;
+    height: 370px;
+    border-radius: 0px 0px 15px 15px;
+    }
+
+.hero-area .content .img-wrapper {
+  position: absolute;
+  top: 0;
+}
+
+.hero-area .content .img-wrapper .ridwan {
+  height: 500px;
+  background-position: -50px -100px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(19 150 255 / 38%),rgba(0,0,0,0.6)), url('../img/ridwan.jpg');
+}
+.content .text {
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+}
+.content .text h1 {
+    font-size: 35px;
+}
+.content .get-start {
+    right: 15px;
+    text-align: right; 
+    bottom: 70px; 
+  }
+  .content .get-start a{
+    font-size: 17px;
+  }
+.content .get-start .arrow {
+    right: 47px;
+    height: 40px;
+    top: 25px;
+}
+    .content .get-start .arrow:before {
+    width: 20px;
+    height: 20px;
+    }
+    @keyframes downArrow{
+    0%{
+        top: 25px;
+    }
+    100%{
+         top: 40px;
+         height: 50px;
+    }
+    }
+    /*   ---- about start here -----*/
+    .about-content h2 {
+        padding-right: 15px;
+        font-size: 22px;
+    }
+
+    .about-content .far {
+        margin-top: 2px;
+    }
+
+    /*---service-section-----*/
+
+    .service-section .service-wrapper {
+        justify-content: center;
+    }
+
+    /* -----accordion-------*/
+    .accordion-container h2 {
+        font-size: 20px;
+        padding: 10px 8px 10px 8px;
+    }
+
+    .accordion-container h2 span i {
+        font-size: 18px;
+    }
+
+    .accordion-container .article-title {
+        padding: 0.625em 1.625em 0.625em 8px;
+    }
+
+    .accordion-content {
+        padding-left: 1em;
+    }
+
+    .contact-section .contact-area h2 i {
+        margin-top: 4px;
+    }
+
+    .testimonial-section .testi-box .testi-content p {
+        font-size: 16px;
+    }
+
+    .find-wrapper .card{
+        max-width: 250px;
+    }
+
+    .pop-msg{
+        position: absolute;
+        top: 320px;
+        left: 15px;
+        width: 210px;
+    }
+    .pop-msg .for-cv {
+    width: 60px;
+    }
+    section h2{
+        font-size: 24px;
+    }
+
+    .title p{
+        font-size: 18px;
+    }
+    .find-wrapper .card .card-body .card-text {
+    font-size: 16px;
+}
+.form-modal{
+    font-size: 18px;
+}
+
+
+    }
+
+/*=============================================
+media (max-width: 332px)
+========================================*/
+@media (max-width: 332px) {
+
+    .about-content h2 {
+        padding-right: 5px;
+    }
+
+   
+   
+    .contact-left {
+        margin-left: 4%;
+    }
+
+    .contact-left {
+        width: 91%;
+    }
+
+    .contact-section .contact-area .inform-wrapper {
+        padding: 20px 4%;
+    }
+
+    .port-img-wrapper {
+        padding: 0px;
+    }
+
+    .testimonial-section .testi-box .testi-content p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px){
+    .content .text h1 {
+    font-size: 32px;
+}
+}
+
+/*=============================================
+media (max-width: 310px)
+========================================*/
+@media (max-width: 310px) {
+   
+
+    .testimonial-section .testi-box .testi-img {
+        width: 90px;
+        height: 90px;
+    }
+
+    
+}
+
+/*=============================================
+media (max-width: 285px)
+========================================*/
+@media (max-width: 285px) {
+    .accordion-container h2 {
+        font-size: 19px;
+    }
+
+    .accordion-container .article-title {
+        font-size: 1em;
+    }
+
+    .accordion-container .content-entry .accordion-content p {
+        font-size: 14px;
+    }
+}
